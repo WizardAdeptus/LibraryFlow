@@ -5,19 +5,19 @@
 <hibernate-configuration>
   <session-factory>
     <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
-    <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
-    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/library_flow_db?zeroDateTimeBehavior=convertToNull</property>
     <property name="hibernate.show_sql">true</property>
-    <property name="hibernate.current_session_context_class">thread</property>
-    <property name="hibernate.connection.datasource">jdbc/LibraryFlowDB</property>
-    <property name="hibernate.connection.username">root</property>
+    <!--<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>-->
+    <!--<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/library_flow_db?zeroDateTimeBehavior=convertToNull</property>-->
+    <!--<property name="hibernate.current_session_context_class">thread</property>-->
+    <!--<property name="hibernate.connection.datasource">jdbc/LibraryFlowDB</property>-->
+    <!--<property name="hibernate.connection.username">root</property>-->
     <!--<property name="hibernate.connection.password">root</property>-->
 
-    <mapping resource="info/petProject/springLibrary/entities/Author.hbm.xml"/>
-    <mapping resource="info/petProject/springLibrary/entities/Book.hbm.xml"/>
-    <mapping resource="info/petProject/springLibrary/entities/Genre.hbm.xml"/>
-    <mapping resource="info/petProject/springLibrary/entities/Publisher.hbm.xml"/>
-    <mapping resource="info/petProject/springLibrary/entities/Vote.hbm.xml"/>
+    <mapping resource="info.petProject.springLibrary.entities/Author.hbm.xml"/>
+    <mapping resource="info.petProject.springLibrary.entities/Book.hbm.xml"/>
+    <mapping resource="info.petProject.springLibrary.entities/Genre.hbm.xml"/>
+    <mapping resource="info.petProject.springLibrary.entities/Publisher.hbm.xml"/>
+    <mapping resource="info.petProject.springLibrary.entities/Vote.hbm.xml"/>
 
     <!-- DB schema will be updated if needed -->
     <!-- <property name="hbm2ddl.auto">update</property> -->
