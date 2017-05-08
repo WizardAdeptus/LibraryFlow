@@ -15,7 +15,7 @@
         <jsf-version>2.2.13</jsf-version>
         <primefaces-version>5.0</primefaces-version>
         <slf4j-version>1.7.21</slf4j-version>
-        <hibernate-version>5.1.0.Final</hibernate-version>
+        <hibernate-version>4.3.8.Final</hibernate-version>
         <mysql-connector-version>6.0.2</mysql-connector-version>
     </properties>
 
@@ -135,7 +135,7 @@
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-core</artifactId>
-            <version>${hibernate-version}</version>
+            <version>4.3.8.Final</version>
         </dependency>
 
         <dependency>
